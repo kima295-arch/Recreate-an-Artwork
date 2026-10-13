@@ -1,0 +1,22 @@
+.ball:hover {
+  z-index: 10;
+  animation: jiggle 560ms ease-in-out infinite;
+}
+
+@keyframes jiggle {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  20% {
+    transform: rotate(-8deg) translateY(-3px);
+  }
+
+  45% {
+    transform: rotate(7deg) translateY(-1px);
+  }
+
+  70% {
+    transform: rotate(-5deg) translateY(-2px);
+  }
+}

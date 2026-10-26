@@ -20,3 +20,7 @@
     transform: rotate(-5deg) translateY(-2px);
   }
 }
+body  {
+    cursor: crosshair;
+    cursor: url("paw.svg"), auto;
+}
